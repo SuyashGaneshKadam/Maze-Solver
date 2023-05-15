@@ -30,7 +30,6 @@ public class Maze extends JFrame{
 		this.getContentPane().setBackground(Color.white);
 		
 		DepthFirstSearch.searchPath(maze, 1, 1, path);
-		System.out.println(path);
 	}
 	
 	@Override
